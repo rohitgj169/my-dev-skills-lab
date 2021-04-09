@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 *,
 *::before,
 *::after {
@@ -17,14 +19,16 @@ li {
   margin: 20px 0;
   width: 25rem;
   font-weight: 700;
+  list-style-type: none;
 }
 
 input {
   border: 2.5px solid #93c47d;
   width: 17rem;
+  color: rgb(180, 175, 175);
 }
 
-button {
+.add-button {
   padding: 0.35em 1.2em;
   text-decoration: none;
   border: 2.5px solid #93c47d;
@@ -35,7 +39,7 @@ button {
   transition: all 0.2s;
 }
 
-button:hover {
+.add-button:hover {
   color: white;
   background-color: #93c47d;
 }
@@ -67,4 +71,15 @@ button:hover {
   display: flex;
   justify-content: space-between;
   height: 3rem;
+}
+
+.xbutton {
+  background-color: white;
+  color: black;
+  margin-right: 10px;
+  border: 2px solid #e06666;
+  border-radius: 50%;
+  font-size: .8rem;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
 }
